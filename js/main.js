@@ -1,9 +1,11 @@
 window.onload = () => {
-  'use strict';
-  console.log('The service worker is serving the asset.');
-  if ('serviceWorker' in navigator) {
-  	console.log('The service worker is serving the m2ai2n');
-    navigator.serviceWorker.register('./sw.js');
-    console.log('The service worker is serving the m2ai2n.');
-  }
+   if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').then(function() {
+          console.warn('ServiceWorker registration successful');
+        }, function() {
+          alert('ServiceWorker registration failed');
+        });
+      });
+    }
 }
