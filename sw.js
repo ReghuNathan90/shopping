@@ -12,8 +12,8 @@ var filesToCache = [
   '/js/skdslider.min.js',
   '/js/skdslider.min.js'
   '/js/jquery-1.11.1.min.js'
-  'js/move-top.js',
-  'js/easing.js'
+  '/js/move-top.js',
+  '/js/easing.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
