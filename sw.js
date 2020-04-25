@@ -11,7 +11,7 @@ var filesToCache = [
   '/js/minicart.min.js',
   '/js/skdslider.min.js',
   '/js/skdslider.min.js',
-  '/js/jquery-1.11.1.min.js'
+  '/js/jquery-1.11.1.min.js',
   '/js/move-top.js',
   '/js/easing.js'
 ];
