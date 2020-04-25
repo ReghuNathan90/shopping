@@ -1,19 +1,9 @@
-var cacheName = 'shopping';
+var cacheName = 'hello-pwa';
 var filesToCache = [
-  './',
-  './index.html',
-  './css/style.css',
-  './css/bootstrap.css'
-  './css/font-awesome.css'
-  './css/skdslider.css',
-  './js/main.js',
-  './js/bootstrap.min.js',
-  './js/minicart.min.js',
-  './js/skdslider.min.js',
-  './js/skdslider.min.js'
-  './js/jquery-1.11.1.min.js'
-  '.js/move-top.js',
-  '.js/easing.js'
+  '/',
+  '/index.html',
+  '/css/style.css',
+  '/js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
