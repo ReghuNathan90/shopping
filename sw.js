@@ -20,7 +20,7 @@ var filesToCache = [
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(cacheName).then(function(cache) {
-      console.log('The service worker is serving the asset.');
+      console.log('The service worker is serving the assetsss.');
       return cache.addAll(filesToCache);
     })
   );
@@ -30,7 +30,7 @@ self.addEventListener('install', function(e) {
 self.addEventListener('fetch', function(e) {
   e.respondWith(
     caches.match(e.request).then(function(response) {
-      console.log('The service worker is serving the asset.');
+      console.log('The service worker is serving the assetrrrr.');
       return response || fetch(e.request);
     })
   );
